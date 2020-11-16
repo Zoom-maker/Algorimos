@@ -1,0 +1,45 @@
+object HelloWorld {
+   def main(args: Array[String]) {
+     
+        var array = new Array[Int](7)
+        array(0) = 2;
+        array(1) = 7;
+        array(2) = 4;
+        array(3) = 2;
+        array(4) = 7;
+        array(5) = 2;
+        array(6) = 3;
+
+        println("Desorganizados:");
+        println();
+
+        for (x <- array)
+        {
+            println(x);
+        }
+
+
+                for (i <- 0 to array.size)
+                {
+                    for (f <- i + 1 to (array.size - 1))
+                    {
+                        if (array(i) == array(f))
+                        {
+                           array(f) = 0;
+                        }
+                         
+                    }
+                }
+
+        println("Organizados:");
+        println();
+
+        for (i <- 0 to (array.size - 1))
+        {
+            if (array(i) != 0; 
+            {
+                println(array(i))
+            }
+        }
+    }
+}

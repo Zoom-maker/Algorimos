@@ -1,0 +1,48 @@
+3-  Escriba un algoritmo para agendar una cita, reunión o compromiso en su agenda
+
+	1- Tomar un lapiz o lapicero
+	2- Escribir el titulo del evento
+	3- La fecha y la hora del evento
+	4- Escribir una nota sobre el evento
+	5- Cerrar y guardar nuestra agenda
+
+5-  Escriba el pseudo código del problema que se le asigno según su grupo:
+
+Algoritmo -> Eliminar duplicados de un arreglo numérico//
+	
+	Definir Numbers como entero;
+	Dimension Numbers[7];
+	
+	Numbers[1] = 2;
+	Numbers[2] = 7;
+	Numbers[3] = 4;
+	Numbers[4] = 2;
+	Numbers[5] = 7;
+	Numbers[6] = 2;
+ 	Numbers[7] = 3;
+
+	Para i <- 1 hasta Numbers.Cantidad con paso 1 hacer	
+		Para f <- i +1 hasta (Numbers.Cantidad - 1) con paso 1 hacer
+			Si Numbers[i] == Numbers[f] Entonces
+			Number[f] = 0;
+			Fin Si
+		Fin Para	
+	Fin Para
+	Para i <- 0 hasta (Numbers.Cantidad - 1)
+
+		Si Numbers[i] != 0
+
+			print(Numbers[i])
+
+		Fin Si
+	Fin Para 
+	
+
+Fin Algoritmo
+	
+	
+
+
+
+
+	
